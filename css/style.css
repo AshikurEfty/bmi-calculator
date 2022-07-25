@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul,ol{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.main-part{
+    border: 2px solid rgb(26, 12, 226);
+    border-radius: 5px;
+    background: #cacaca;
+}
+.nmb-gm {
+	font-size: 30px;
+	font-family: 'Oswald';
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	color: #c21fd9;
+}
+.input-number .nmb{
+    border: 2px solid #000;
+    font-size: 30px;
+    font-family: 'Oswald';
+    text-align: center;
+    padding-bottom:5px;
+}
+
+.input-number{
+    text-align: center;
+}
+.input-number h4{
+    font-size: 30px;
+    font-family: 'Oswald'; 
+}
+.button {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.button .btn{
+    border:2px solid;
+    padding: 5px 80px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    transition: all linear .3s;
+    color: #800066;
+}
+.button .btn:hover{
+    border: 2px solid red;
+    box-shadow: 0px 0px 20px -5px #000;
+    transition: all linear .3s;
+}
+.btn-check:focus + .btn, .btn:focus {
+	box-shadow:none;
+}
+.text-part{
+    margin-left: -5px;
+    text-align: center;
+}
+.text-part h4{
+    font-size: 30px;
+    font-family: 'Oswald'; 
+}
+.text-center {
+    border: 2px solid #000;
+    padding: 5px 1px;
+}
+#bmi-part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#height{
+    margin-top: 10px;
+}
+.bmi-output {
+	border: 2px solid #000;
+	padding: 10px;
+	border-radius: 5px;
+    font-family: 'Oswald'; 
+}
+.output{
+    margin-top: 30px;
+}
+.output h4{
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+.weight{
+    border:2px solid #000;
+}
+.height{
+    border:2px solid #000;
+}
+
+
+/* Animation  part*/
+
+#animate{
+    margin-bottom: 50px;
+}
+.box {
+  border-radius:50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: efty 5s linear 2s infinite alternate;
+}
+
+@keyframes efty {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
